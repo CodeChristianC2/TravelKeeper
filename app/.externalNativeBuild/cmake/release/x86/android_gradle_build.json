@@ -1,12 +1,9 @@
 
 {
-	"buildFiles" : 
-	[
-		"/home/christian/AndroidStudioProjects/TravelKeeperGit/app/CMakeLists.txt"
-	],
+	"buildFiles" : [ "C:/Users/chris/AndroidProjects/TravelKeeper/app/CMakeLists.txt" ],
 	"cleanCommands" : 
 	[
-		"/home/christian/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/christian/AndroidStudioProjects/TravelKeeperGit/app/.externalNativeBuild/cmake/release/x86 --target clean"
+		"C:\\Users\\chris\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\chris\\AndroidProjects\\TravelKeeper\\app\\.externalNativeBuild\\cmake\\release\\x86 --target clean"
 	],
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
@@ -15,27 +12,27 @@
 		{
 			"abi" : "x86",
 			"artifactName" : "native-lib",
-			"buildCommand" : "/home/christian/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/christian/AndroidStudioProjects/TravelKeeperGit/app/.externalNativeBuild/cmake/release/x86 --target native-lib",
+			"buildCommand" : "C:\\Users\\chris\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\chris\\AndroidProjects\\TravelKeeper\\app\\.externalNativeBuild\\cmake\\release\\x86 --target native-lib",
 			"buildType" : "release",
 			"files" : 
 			[
 				
 				{
-					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/home/christian/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/christian/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /home/christian/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/christian/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/christian/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/christian/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O2 -DNDEBUG  -fPIC    -c ",
-					"src" : "/home/christian/AndroidStudioProjects/TravelKeeperGit/app/src/main/cpp/native-lib.cpp",
-					"workingDirectory" : "/home/christian/AndroidStudioProjects/TravelKeeperGit/app/.externalNativeBuild/cmake/release/x86"
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=C:/Users/chris/AppData/Local/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/chris/AppData/Local/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem C:\\Users\\chris\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem C:\\Users\\chris\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\android\\support\\include -isystem C:\\Users\\chris\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem C:/Users/chris/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/Users/chris/AndroidProjects/TravelKeeper/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "C:/Users/chris/AndroidProjects/TravelKeeper/app/.externalNativeBuild/cmake/release/x86"
 				}
 			],
-			"output" : "/home/christian/AndroidStudioProjects/TravelKeeperGit/app/build/intermediates/cmake/release/obj/x86/libnative-lib.so",
-			"toolchain" : "13984416853833237544"
+			"output" : "C:/Users/chris/AndroidProjects/TravelKeeper/app/build/intermediates/cmake/release/obj/x86/libnative-lib.so",
+			"toolchain" : "4092105369"
 		}
 	},
 	"toolchains" : 
 	{
-		"13984416853833237544" : 
+		"4092105369" : 
 		{
-			"cCompilerExecutable" : "/home/christian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
-			"cppCompilerExecutable" : "/home/christian/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+			"cCompilerExecutable" : "C:/Users/chris/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/chris/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
 		}
 	}
 }
